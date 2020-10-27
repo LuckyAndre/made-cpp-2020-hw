@@ -1,6 +1,7 @@
 #include "iostream";
 #include "vector";
 
+
 using namespace std;
 
 // Chunk - элемент фиксированного размера, группирую в блоки
