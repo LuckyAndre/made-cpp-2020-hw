@@ -1,0 +1,17 @@
+https://sberbank.zoom.us/j/96493093173?pwd=ZHNVTS9GNG5rNzV4TElQK2l1SW9iUT09
+
+
+def manual_data():
+    n = 5
+    operations = [['union', '1', '2'],
+                  ['get', '3'],
+                  ['get', '2'],
+                  ['union', '2', '3'],
+                  ['get', '2'],
+                  ['union', '1', '3'],
+                  ['get', '5'],
+                  ['union', '4', '5'],
+                  ['get', '5'],
+                  ['union', '4', '1'],
+                  ['get', '5']]
+    return n, operations
